@@ -11,6 +11,7 @@
     <p>Este es mi proyecto Laravel</p>
     <a href="{{route('empleados')}}">Empleados</a>
     <a href="{{route('clientes.index')}}">clientes</a>
+    <a href="{{route('departamentos.index')}}">departamentos</a>
     <a href="{{route('productos.index')}}">productos</a>
 
 </body>
