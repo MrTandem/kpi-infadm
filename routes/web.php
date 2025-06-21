@@ -10,7 +10,7 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
-Route::get('/empleados', [EmpleadosController::class,'index'])->name('empleados');
+Route::resource('/empleados', EmpleadosController::class);
 
 Route::resource('/clientes', ClientesController::class);
 
