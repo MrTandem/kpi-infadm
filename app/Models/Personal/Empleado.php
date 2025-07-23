@@ -2,6 +2,7 @@
 
 namespace App\Models\Personal;
 
+use App\Models\Departamento;
 use Illuminate\Database\Eloquent\Model;
 
 class Empleado extends Model
